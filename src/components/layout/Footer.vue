@@ -19,11 +19,11 @@ const footerLinks = [
 
 <template>
   <footer class="bg-footer-bg text-white">
-    <div class="md:flex items-center justify-between gap-4 px-12 md:px-28 py-12">
+    <div class="md:flex items-center justify-center gap-4 px-12 xl:px-16 py-12">
 
-      <div class="md:w-4/12 pb-4">
+      <div class="md:w-5/12 lg:w-4/12 pb-4">
         <h2 class="font-medium text-base md:text-lg lg:text-xl pb-2 md:pb-4">Stay Connected</h2>
-        <p class="text-xs md:text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum quae, culpa repudiandae ratione perferendis expedita placeat dolorum. Aliquam odio cum maiores voluptatem quos quae consequuntur magnam quod eaque soluta.</p>
+        <p class="text-xs md:text-xs lg:text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum quae, culpa repudiandae ratione perferendis expedita placeat dolorum. Aliquam odio cum maiores voluptatem quos quae consequuntur magnam quod eaque soluta.</p>
       </div>
 
       <div class="md:grid grid-cols-3">

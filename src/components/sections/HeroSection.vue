@@ -9,11 +9,11 @@ import Button from '../ui/Button.vue';
 
       <span class="font-bold text-xs md:text-base lg:text-lg">Big Data and Gen AI Services </span>
 
-      <h1 class="font-medium text-xl leading-6 md:text-3xl md:leading-8 lg:text-5xl lg:leading-14 text-pretty">
+      <h1 class="font-medium text-xl leading-6 md:text-3xl md:leading-8 lg:leading-10 xl:text-5xl xl:leading-14 text-pretty">
         Extract and Process PB Scale Data for Predictive Insights and Threat Assessments
       </h1>
 
-      <p class="md:w-2/3 text-xs text-pretty lg:text-base">
+      <p class="md:w-2/3 text-xs text-pretty xl:text-base font-medium">
         Take complexity out of business data for actionable insights. Help mature business processes
         harness the benefits of AI-led personalization and scalable intelligence.
       </p>

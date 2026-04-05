@@ -43,13 +43,14 @@ const toggleFaq = (index) => {
 
       <!-- Left: heading (takes 1 col) -->
       <div>
-        <h2 class="font-semibold text-lg md:text-2xl lg:text-3xl pb-8 text-center md:text-start">Frequently Asked Questions</h2>
+        <h2 class="heading pb-8 text-center md:text-start">Frequently Asked
+          Questions</h2>
       </div>
 
       <!-- Right: faq list (takes 2 cols) -->
       <div class="col-span-2 flex flex-col gap-4">
-        <div v-for="(faq, index) in faqs" :key="index" class="border border-[#D3D3D3] rounded-md p-4 cursor-pointer select-none"
-          @click="toggleFaq(index)">
+        <div v-for="(faq, index) in faqs" :key="index"
+          class="border border-[#D3D3D3] rounded-md p-4 cursor-pointer select-none" @click="toggleFaq(index)">
           <!-- question row -->
           <div class="flex justify-between items-center">
             <span class="font-semibold text-sm md:text-base">{{ faq.question }}</span>
@@ -59,9 +60,17 @@ const toggleFaq = (index) => {
           </div>
 
           <!-- answer — only when active -->
-          <p v-show="activeIndex === index" class="mt-3 text-gray-500 text-xs md:text-sm">
+           
+          <!-- <p v-show="activeIndex === index" class="mt-3 text-gray-500 text-xs md:text-sm">
             {{ faq.answer }}
-          </p>
+          </p> -->
+
+          <div class="overflow-hidden transition-all duration-300"
+            :class="activeIndex === index ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'">
+            <p class="mt-3 text-gray-500 text-xs md:text-sm">
+              {{ faq.answer }}
+            </p>
+          </div>
         </div>
       </div>
 

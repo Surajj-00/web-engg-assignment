@@ -30,21 +30,21 @@ const tabs = [
 <template>
   <section class="px-8 pt-16 lg:px-36 lg:pt-20">
 
-    <h2 class="font-semibold text-lg md:text-2xl lg:text-3xl pb-8 md:pb-8">Helping Build Analytics-AI Convergence :</h2>
+    <h2 class="heading pb-8 md:pb-8">Helping Build Analytics-AI Convergence :</h2>
 
     <div class="w-full flex items-center md:justify-start gap-4 md:gap-16 ">
 
       <!-- Left: tabs -->
-      <div class="w-6/12 md:w-3/12 md:pl-8">
+      <div class="w-6/12 md:w-5/12 xl:w-3/12 md:pl-8">
         <div v-for="(tab, index) in tabs" :key="index" @click="setActiveTab(index)"
-          :class="activeTab === index ? 'border-b-2 border-btn-primary font-semibold' : 'text-gray-400'"
-          class="cursor-pointer py-2 md:py-4 border-b text-xs md:text-base">
+          :class="activeTab === index ? 'border-b-2 border-[#02542D] font-semibold' : 'text-gray-400'"
+          class="cursor-pointer py-2 md:py-4 border-b text-xs md:text-sm lg:text-base">
           {{ tab.title }}
         </div>
       </div>
 
       <!-- Right: content -->
-      <div class="w-12/12 md:w-8/12 bg-[#C3EF35] p-4 md:p-8 text-xs md:text-base rounded-sm rounded-br-4xl text-pretty">
+      <div class="w-12/12 md:w-8/12 bg-secondary p-4 md:p-8 text-xs md:text-sm lg:text-base rounded-sm rounded-br-4xl text-pretty">
         {{ tabs[activeTab].content }}
       </div>
     </div>

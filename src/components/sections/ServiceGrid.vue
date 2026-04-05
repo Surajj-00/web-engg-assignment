@@ -53,12 +53,12 @@ const services = [
 
 <template>
   <section class="px-8 py-16 lg:px-36 lg:py-20 flex flex-col items-center justify-center gap-8">
-    <h2 class="font-semibold text-lg md:text-2xl lg:text-3xl">Support Gen AI Intelligence by Aligning Big Data</h2>
+    <h2 class="heading">Support Gen AI Intelligence by Aligning Big Data</h2>
 
-    <div class="grid md:grid-cols-3 gap-6">
-      <div v-for="(service, index) in services" :key="index" class="border py-9 px-8 border-[#C3C3C3] rounded-sm">
-        <h3 class="font-semibold pb-2">{{ service.title }}</h3>
-        <p class="text-sm">{{ service.content }}</p>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div v-for="(service, index) in services" :key="index" class="border py-9 px-8 border-[#C3C3C3] rounded-sm ">
+        <h3 class="text-sm font-semibold pb-2">{{ service.title }}</h3>
+        <p class="text-xs md:text-sm">{{ service.content }}</p>
       </div>
     </div>
 
