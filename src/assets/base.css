@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #22c55e;
+  --color-primary-dark: #16a34a;
+  --color-secondary: #facc15;
+  --color-dark: #111827;
+
+
+  /* button & footer color */
+  --color-btn-primary: #14AE5C;
+  --color-footer-bg: #14AE5C;
+
+  /* font family */
+  --font-sans: 'Poppins', sans-serif;
+  --font-heading: 'Plus Jakarta Sans', sans-serif;
+  --font-stats: 'Protest Riot', sans-serif;
+
+
+  --text-hero-heading: clamp(28px, 4vw, 54px);
+  --text-hero-sub: clamp(14px, 1.5vw, 18px);
+  --leading-hero: clamp(38px, 5vw, 70px);
+
+  --text-section-heading: 38px;
+}
+
+body {
+  font-family: var(--font-sans);
+}
