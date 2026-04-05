@@ -57,7 +57,7 @@ const services = [
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div v-for="(service, index) in services" :key="index" class="border py-9 px-8 border-[#C3C3C3] rounded-sm ">
-        <h3 class="text-sm font-semibold pb-2">{{ service.title }}</h3>
+        <h3 class="text-sm md:text-base font-semibold pb-2">{{ service.title }}</h3>
         <p class="text-xs md:text-sm">{{ service.content }}</p>
       </div>
     </div>
