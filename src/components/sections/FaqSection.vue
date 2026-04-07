@@ -37,7 +37,7 @@ const toggleFaq = (index) => {
 </script>
 
 <template>
-  <section class="px-8 py-16 lg:px-36 lg:py-20">
+  <section class="container-main px-8 py-16 lg:px-36 lg:py-20">
 
     <div class="md:grid grid-cols-3 gap-12">
 

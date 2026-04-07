@@ -18,7 +18,7 @@ const footerLinks = [
 </script>
 
 <template>
-  <footer class="bg-footer-bg text-white">
+  <footer class="bg-footer-bg text-white container-main">
     <div class="md:flex items-center justify-center gap-4 px-12 xl:px-16 py-12">
 
       <div class="md:w-5/12 lg:w-4/12 pb-4">

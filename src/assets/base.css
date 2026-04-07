@@ -2,6 +2,9 @@
 
 @theme {
 
+  /* container width */
+  --width-container: 1920px;
+
   /* background color */
   --color-primary: #CFF7D3;
   --color-primary-dark: #AFF4C6;
@@ -14,12 +17,18 @@
 
   /* font family */
   --font-sans: 'Poppins', sans-serif;
-  --font-heading: 'Plus Jakarta Sans', sans-serif;  /*alternate of Sofia Pro*/
+  --font-heading: 'Plus Jakarta Sans', sans-serif;
+  /*alternate of Sofia Pro*/
   --font-stats: 'Protest Riot', sans-serif;
 
 }
 
 @layer {
+
+  .container-main {
+    @apply max-w-container;
+  }
+
   .heading {
     @apply font-semibold text-lg md:text-2xl lg:text-3xl;
   }

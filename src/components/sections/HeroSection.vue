@@ -4,12 +4,12 @@ import Button from '../ui/Button.vue';
 </script>
 
 <template>
-  <div class="w-full h-auto px-4 py-16 md:py-24 bg-linear-to-br from-green-100 to-green-200">
+  <div class="container-main w-full h-auto px-4 py-16 md:py-24 bg-linear-to-br from-green-100 to-green-200">
     <div class="flex flex-col items-center justify-center text-center gap-4 lg:px-28 md:gap-6">
 
       <span class="font-bold text-xs md:text-base lg:text-lg">Big Data and Gen AI Services </span>
 
-      <h1 class="font-medium text-xl leading-6 md:text-3xl md:leading-8 lg:leading-10 xl:text-5xl xl:leading-14 text-pretty">
+      <h1 class="font-medium text-xl leading-6 md:text-3xl md:leading-8 lg:leading-10 xl:text-5xl xl:leading-12 text-pretty">
         Extract and Process PB Scale Data for Predictive Insights and Threat Assessments
       </h1>
 

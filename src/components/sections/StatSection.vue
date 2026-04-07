@@ -3,7 +3,7 @@ const stats = ['25+', '3000+', '30+', '97%'];
 </script>
 
 <template>
-  <section class="px-8 py-16 lg:px-36 lg:py-20 flex flex-col items-center justify-center gap-6 bg-primary">
+  <section class="container-main px-8 py-16 lg:px-36 lg:py-20 flex flex-col items-center justify-center gap-6 bg-primary">
 
     <h2 class="heading">Experience You Can Trust</h2>
     <p class="text-xs md:text-sm text-center text-pretty">Helping you forecast evolving market needs with Big Data services.</p>
