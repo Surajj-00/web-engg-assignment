@@ -26,7 +26,7 @@
 @layer {
 
   .container-main {
-    @apply max-w-container;
+    @apply max-w-[1920px];
   }
 
   .heading {
