@@ -69,7 +69,7 @@ onUnmounted(() => {
              bg-white shadow-lg rounded-lg py-3 min-w-48 z-50
              border border-gray-100">
             <RouterLink v-for="item in link.dropdown" :key="item.label" :to="item.path"
-              class="block px-4 py-2 text-sm hover:bg-green-50 hover:text-btn-primary transition-colors">
+              class="block px-4 py-2 text-xs hover:bg-green-50 hover:text-btn-primary transition-colors">
               {{ item.label }}
             </RouterLink>
           </div>
@@ -116,9 +116,9 @@ onUnmounted(() => {
 
         <!-- mobile dropdown -->
         <div v-show="activeMobileDropdown === link.name"
-          class="flex flex-col pl-4 mt-2 gap-2 border-l-2 border-btn-primary">
+          class="flex flex-col pl-4 mt-2 gap-1 border-l-2 border-btn-primary">
           <RouterLink v-for="item in link.dropdown" :key="item.label" :to="item.path" @click="toggleMenu"
-            class="text-sm text-gray-500 active:bg-green-50 active:text-btn-primary transition-colors py-1">
+            class="text-xs text-gray-500 active:bg-green-50 active:text-btn-primary transition-colors py-1">
             {{ item.label }}
           </RouterLink>
         </div>
